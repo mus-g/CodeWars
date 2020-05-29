@@ -1,6 +1,6 @@
 import unittest
 
-from .Are You Playing Banjo import areYouPlayingBanjo
+areYouPlayingBanjo= __import__("Are You Playing Banjo")
 
 class DNAToRNATestCase(unittest.TestCase):
     def test_equals(self):
